@@ -33,7 +33,14 @@ const useStyles = makeStyles({
   }
 });
 
-const PositionCard = ({ positionType, underlying, expiry, isOpen }) => {
+interface PositionCardProps {
+  positionType: string;
+  underlying: string;
+  expiry: string;
+  isOpen: boolean;
+}
+
+const PositionCard: React.FC<PositionCardProps> = ({ positionType, underlying, expiry, isOpen }) => {
   const classes = useStyles();
 
   return (
