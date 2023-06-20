@@ -8,7 +8,7 @@ export default function App() {
         underlying="ABNB"
         positionType="Iron Condor"
         expiry="43d"
-        isOpen="True"
+        isOpen={true}
       />
     </div>
   );
