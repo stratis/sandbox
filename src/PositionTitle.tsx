@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: "#cedaf5"
+    backgroundColor: "#f2f3f5"
   },
   positionType: {
     color: "gray",
